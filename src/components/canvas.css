@@ -1,0 +1,23 @@
+#Canvas {
+    width:900px;
+    height: 100%;
+    margin-left: 17%;
+    
+    background-color: rgba(243, 215, 92, 0.199);
+    }
+    
+    #CanvasButton {
+    margin-left: 20px;
+    margin-top:20px;
+    background-color: rgba(138, 97, 44, 0.623);
+    
+    }
+    #imgCanvas {
+       border-radius: 2%;
+              
+        }
+
+    #CanvasHead1 {
+    background-color: rgba(65, 61, 56, 0.267);
+        
+    }
