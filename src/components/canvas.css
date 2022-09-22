@@ -3,10 +3,10 @@
     height: 100%;
     margin-left: 17%;
     
-    background-color: rgba(243, 215, 92, 0.199);
+    background-color: rgba(122, 99, 56, 0.849);
     }
     
-    #CanvasButton {
+   .CanvasButton {
     margin-left: 20px;
     margin-top:20px;
     background-color: rgba(138, 97, 44, 0.623);

@@ -12,25 +12,26 @@ import Card from 'react-bootstrap/Card';
 
 const CardPData = [
   { 
-  
+      "id":1 ,
       "img": "/facebook.png"  ,
       "link": "https://www.facebook.com/rotiseria.lasabuelas"    
   }
   ,
   { 
-  
+      "id":2,
       "img": './instagram.png',
       "link": "https://www.instagram.com/rotiserialasabuelas/"
   }
   ,
   { 
-  
+      "id":3,
       "img": './whatsapp.png',
       "link": "https://www.instagram.com/rotiserialasabuelas/"
   }
   ];
 
 function  CardRedes () {
+ 
   return ( 
 
     <div style={{marginLeft:'50px', marginTop: '25px' }}>

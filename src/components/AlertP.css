@@ -1,0 +1,12 @@
+.AlertPBody {
+    width: 600px;
+    height:500px;
+    background-color: rgba(204, 170, 107, 0.705);
+    margin-left: 15%;
+
+}
+
+.AlertBotton {
+    background-color: rgba(228, 194, 149, 0.014);
+    border-color: rgba(243, 215, 92, 0);
+}

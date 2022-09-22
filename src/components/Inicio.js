@@ -11,7 +11,6 @@ function Inicio() {
     <>
     <div className="BGhead">
     <Navbar/>
-
     <DivRight/>
     <DivMid1/>
     </div>

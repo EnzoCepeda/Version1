@@ -3,34 +3,19 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './canvas.css'
-import CardRight from './Cards';
-import AlertP from './AlertP';
+import AlertH from './AlertH';
 
 
 const DataCanvas = [
   { 
-      
-     
-      "buttonimg":"/empcarne.jpg"
-          
-  }
-  ,
-  { 
-      
-      
-      "buttonimg": '/capresse.jpg'
-  }
-  ,
-  { 
-      
-     
       "buttonimg":'/goodburger.jpeg'
   }
   
   ];
 
-function Example() {
+function CanvasH() {
   const [show, setShow] = useState(false);
+  const [Dc, setDc] = useState(DataCanvas);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -39,13 +24,13 @@ function Example() {
 
       <>
 
-      {DataCanvas.map((e) =>
+      {DataCanvas.map((props) =>
    
       {
       return (
       <>
-      <Button id="CanvasButton" onClick={handleShow}>
-        <img id="imgCanvas" src={e.buttonimg}
+      <Button className="CanvasButton" variant="secondary" id={props.id} onClick={handleShow}>
+        <img id="imgCanvas" src={props.buttonimg}
          width="200px" 
          height="140px"
          />
@@ -55,11 +40,11 @@ function Example() {
         <Offcanvas.Header id="CanvasHead1" closeButton>
         </Offcanvas.Header>
         </body>       
-      
-        <Offcanvas.Body> 
-        <AlertP/>
+        <>
+        <Offcanvas.Body > 
+        <AlertH />
         </Offcanvas.Body>
-    
+        </>
         
       </Offcanvas>
      
@@ -74,4 +59,4 @@ function Example() {
   );
 }
 
-export default Example;
+export default CanvasH;

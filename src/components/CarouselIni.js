@@ -11,16 +11,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Objetos de CarouselIni
 const items = [
   {
-    src: "/goodburger.jpeg", 
+    src: "/burgercarousel.jpg", 
     caption: 'Las mejores Burgers'
    
   },
   {
-    src: './empcarne.jpg',
+    src: './empcarousel.jpg',
     caption: 'Variedades de empanadas'
   },
   {
-    src: "/capresse.jpg",
+    src: "/pizzacarousel.jpg",
     caption: 'Diferentes sabores'
   },
 ];

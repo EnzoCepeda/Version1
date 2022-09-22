@@ -1,13 +1,16 @@
 import React from "react";
-import CardRight from "./Cards";
 import './DivRight.css';
-import Example from "./Canvass";
+import CanvasP from "./OffCanvasP";
+import CanvasH from "./OffCanvasH";
+import CanvasE from "./OffCanvasE";
 
 function DivRight() {
     return ( 
 
        <div className="DivRight">
-       <Example/>
+       <CanvasP/>
+       <CanvasH/>
+       <CanvasE/>
        </div>
  
     );
